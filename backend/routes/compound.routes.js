@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const compoundController = require('../controllers/compoundController');
+const compoundController = require('../controllers/compound.controller');
 
 router.get('/', compoundController.getAllCompounds);
 router.get('/:id', compoundController.getCompoundById);
